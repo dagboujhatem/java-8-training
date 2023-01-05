@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e4616ae-05fc-4811-aaec-2d3d607690f9" name="Changes" comment="Expressions lambda">
+    <list default="true" id="0e4616ae-05fc-4811-aaec-2d3d607690f9" name="Changes" comment="Expressions lambda et variables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="3_Expressions_lambda" />
+        <entry key="$PROJECT_DIR$" value="4_Expressions_lambda_et_variables" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672859922219</updated>
-      <workItem from="1672859923295" duration="3212000" />
+      <workItem from="1672859923295" duration="4295000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1672860277651</created>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672960625204</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Expressions lambda et variables">
+      <created>1672961537123</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672961537123</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +122,7 @@
     <MESSAGE value="Functional interfaces" />
     <MESSAGE value="Classes anonymes" />
     <MESSAGE value="Expressions lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expressions lambda" />
+    <MESSAGE value="Expressions lambda et variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expressions lambda et variables" />
   </component>
 </project>
