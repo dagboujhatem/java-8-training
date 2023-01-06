@@ -1,18 +1,18 @@
+import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.IntSupplier;
+import java.util.function.Supplier;
 
 public class Main {
     public static void main(String[] args) {
+        // create a Supplier
+        Supplier<Integer> supplier = ()-> LocalDateTime.now().getYear();
+        System.out.println("Years : " + supplier.get());
 
-        List<String> list = Arrays.asList("Monday", "Tuesday", "Sunday");
-        // Create Consumers
-        Consumer<String> print = System.out::println;
-        Consumer<String> printLowerCase = item -> System.out.println(item.toLowerCase());
-        Consumer<String> printUpperCase = item -> System.out.println(item.toUpperCase());
-
-        // Chaining Consumers
-        list.forEach(print.andThen(printLowerCase).andThen(printUpperCase));
+        IntSupplier supplier2 = ()-> LocalDateTime.now().getMinute();
+        System.out.println("Minutes : " + supplier2.getAsInt());
 
     }
 }
