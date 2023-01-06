@@ -5,20 +5,15 @@ import java.util.function.*;
 
 public class Main {
     public static void main(String[] args) {
-        //  Interface "Predicate"
-        Predicate<String> hasLeftParenthesis = (str) -> str.startsWith("(");
-        Predicate<String> hasRightParenthesis = (str) -> str.endsWith(")");
-        // && AND logic
-        Predicate<String> hasParentheses = hasLeftParenthesis.and(hasRightParenthesis);
-        // || OR logic
-        Predicate<String> hasAtLeastParenthesis = hasLeftParenthesis.or(hasRightParenthesis);
-        // ! NOT logic
-        Predicate<String> negate = hasAtLeastParenthesis.negate();
-
+        // Interface "BinaryOperator"
+        BinaryOperator<Integer> multiply = (a,b) -> a*b;
+        Function<Integer, Integer> multiplyBy10 = (x) -> multiply.apply(x,10);
         // Test
-        System.out.println(hasAtLeastParenthesis.test("(Hello"));
-        System.out.println(hasParentheses.test("(Hello"));
-        System.out.println(negate.test("(Hello"));
+        System.out.println(multiply.apply(5,4));
+        System.out.println(multiplyBy10.apply(5));
+
+        var result = multiply.andThen(multiplyBy10).apply(5,6);
+        System.out.println(result);
 
     }
 }
