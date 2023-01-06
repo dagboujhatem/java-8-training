@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e4616ae-05fc-4811-aaec-2d3d607690f9" name="Changes" comment="Interface &quot;Function&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0e4616ae-05fc-4811-aaec-2d3d607690f9" name="Changes" comment="Interface &quot;Predicate&quot;">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="10_compose_vs_andThen_method" />
+        <entry key="$PROJECT_DIR$" value="11_Interface_Predicate" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672859922219</updated>
-      <workItem from="1672859923295" duration="9212000" />
+      <workItem from="1672859923295" duration="9702000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1672860277651</created>
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672966576249</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Interface &quot;Predicate&quot;">
+      <created>1672967954619</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672967954619</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +181,7 @@
     <MESSAGE value="Enchaînement des consumers" />
     <MESSAGE value="Interface &quot;Supplier&quot;" />
     <MESSAGE value="Interface &quot;Function&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface &quot;Function&quot;" />
+    <MESSAGE value="Interface &quot;Predicate&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface &quot;Predicate&quot;" />
   </component>
 </project>
