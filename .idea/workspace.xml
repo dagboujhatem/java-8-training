@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e4616ae-05fc-4811-aaec-2d3d607690f9" name="Changes" comment="Combinaison des prédicats">
+    <list default="true" id="0e4616ae-05fc-4811-aaec-2d3d607690f9" name="Changes" comment="Interface &quot;BinaryOperator&quot;">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="12_Combinaison_des_prédicats" />
+        <entry key="$PROJECT_DIR$" value="13_Interface_BinaryOperator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672859922219</updated>
-      <workItem from="1672859923295" duration="10092000" />
+      <workItem from="1672859923295" duration="10466000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1672860277651</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672968486852</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Interface &quot;BinaryOperator&quot;">
+      <created>1672968943516</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672968943516</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +197,7 @@
     <MESSAGE value="Interface &quot;Function&quot;" />
     <MESSAGE value="Interface &quot;Predicate&quot;" />
     <MESSAGE value="Combinaison des prédicats" />
-    <option name="LAST_COMMIT_MESSAGE" value="Combinaison des prédicats" />
+    <MESSAGE value="Interface &quot;BinaryOperator&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface &quot;BinaryOperator&quot;" />
   </component>
 </project>
